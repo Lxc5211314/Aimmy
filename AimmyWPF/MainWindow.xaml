@@ -79,7 +79,7 @@
                                     BorderBrush="{x:Null}"
                                     Padding="0,0,0,0"
                                     BorderThickness="0,0,0,0"
-                                    Content="Aim Aligner"
+                                    Content="目标对齐器"
                                     FontFamily="/AimmyWPF;component/Fonts/#Atkinson Hyperlegible"
                                     HorizontalAlignment="Left"
                                     Width="134"
@@ -92,7 +92,7 @@
                                     BorderBrush="{x:Null}"
                                     Padding="0,0,0,0"
                                     BorderThickness="0,0,0,0"
-                                    Content="Auto Trigger"
+                                    Content="自动触发器"
                                     FontFamily="/AimmyWPF;component/Fonts/#Atkinson Hyperlegible"
                                     HorizontalAlignment="Left"
                                     Width="136"
@@ -106,7 +106,7 @@
                                     BorderBrush="{x:Null}"
                                     Padding="0,0,0,0"
                                     BorderThickness="0,0,0,0"
-                                    Content="Model Selector"
+                                    Content="模型选择"
                                     FontFamily="/AimmyWPF;component/Fonts/#Atkinson Hyperlegible"
                                     HorizontalAlignment="Left"
                                     Width="134"
@@ -120,7 +120,7 @@
                                     BorderBrush="{x:Null}"
                                     Padding="0,0,0,0"
                                     BorderThickness="0,0,0,0"
-                                    Content="Settings"
+                                    Content="配置设置"
                                     FontFamily="/AimmyWPF;component/Fonts/#Atkinson Hyperlegible"
                                     HorizontalAlignment="Left"
                                     Width="134"
@@ -153,7 +153,7 @@
                                      Padding="0"
                                      Height="33">
                                 <TabItem.Header>
-                                    <TextBlock Text="Local Models"
+                                    <TextBlock Text="本地模型"
                                                FontSize="11"
                                                Foreground="White" />
                                 </TabItem.Header>
@@ -189,7 +189,7 @@
                                      Padding="0"
                                      Height="33">
                                 <TabItem.Header>
-                                    <TextBlock Text="Local Configs"
+                                    <TextBlock Text="本地配置"
                                                FontSize="11"
                                                Foreground="White" />
                                 </TabItem.Header>
@@ -224,7 +224,7 @@
                                      Padding="0"
                                      Height="33">
                                 <TabItem.Header>
-                                    <TextBlock Text="Downloadable Models"
+                                    <TextBlock Text="可下载型号"
                                                FontSize="11"
                                                Foreground="White" />
                                 </TabItem.Header>
@@ -246,7 +246,7 @@
                                      Padding="10,0,10,0"
                                      Height="33">
                                 <TabItem.Header>
-                                    <TextBlock Text="Downloadable Configs"
+                                    <TextBlock Text="可下载配置"
                                                FontSize="11"
                                                Foreground="White" />
                                 </TabItem.Header>
@@ -255,7 +255,7 @@
                                            Visibility="Collapsed"
                                            HorizontalContentAlignment="Center"
                                            VerticalContentAlignment="Center"
-                                           Content="There is no downloadable configs at the moment, please check again later."
+                                           Content="目前没有可下载的配置，请稍后再次检查。"
                                            Foreground="#DDFFFFFF" />
                                     <ScrollViewer x:Name="ConfigStoreMenu"
                                                   VerticalScrollBarVisibility="Hidden"
@@ -286,7 +286,7 @@
                         <Label HorizontalAlignment="Left"
                                Width="93"
                                Foreground="White"
-                               Content="More Info"
+                               Content="更多信息"
                                FontFamily="/AimmyWPF;component/Fonts/#Atkinson Hyperlegible"
                                VerticalContentAlignment="Center"
                                Padding="15,10,15,10"
